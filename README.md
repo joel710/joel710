@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @joel710
-- 👀 I’m interested in robotique ,programmation
-- 🌱 I’m currently learning python avancer
-- 💞️ I’m looking to collaborate on développement de bot télégramme en python 
+- 👀 I’m interested by robotics, programming
+- 🌱 I’m currently learning python advance
+- 💞️ I’m looking to collaborate on développement télégramme  bot with python 
 - 📫 How to reach me telegram whatsapp ;-)
 
 <!---
