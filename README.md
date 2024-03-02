@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @joel710
-- 👀 I’m interested by robotics, programming
-- 🌱 I’m currently learning python advance
-- 💞️ I’m looking to collaborate on développement télégramme  bot with python 
-- 📫 How to reach me telegram whatsapp ;-)
+- 👋 Salut, je suis @joel710
+- 👀 Je suis passionné par la robotique, la programmation, 'IA
+- 🌱 J'apprends le Python avancé et du Rust
+- 💞️ Je cherche à collaborer sur le développement d'IA avec Python
+- 📫 Contactez-moi via Telegram @jojo_dev ou WhatsApp ;-)
 
 <!---
 joel710/joel710 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
