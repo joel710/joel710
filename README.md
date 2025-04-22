@@ -1,8 +1,61 @@
-### 👋 Salut, je suis @joel710
+<!-- Profil GitHub de Joel710 -->
 
-![Illustration](https://example.com/illustration.jpg)
+<h1 align="center">Salut 👋, je suis Joel710</h1>
+<h3 align="center">Développeur passionné par la robotique, la programmation et l'intelligence artificielle</h3>
 
-🤖 Passionné par la robotique, la programmation et l'intelligence artificielle. Mon intérêt pour ces domaines m'a poussé à explorer de nouvelles technologies et à chercher des solutions innovantes. En constante quête de connaissances, j'explore actuellement le Python avancé et le Rust pour élargir mes compétences et relever de nouveaux défis.
+<p align="center">
+  <img src="https://example.com/illustration.jpg" alt="Illustration de Joel710" width="600"/>
+</p>
+
+---
+
+### 🧠 À propos de moi
+
+- 🤖 Passionné par la **robotique**, la **programmation** et l'**intelligence artificielle**
+- 🚀 Toujours en quête de nouvelles connaissances et de défis techniques
+- 🐍 Actuellement en train d'approfondir mes compétences en **Python avancé**
+- 🦀 Exploration du langage **Rust** pour des performances optimales
+- 💡 Ouvert aux collaborations sur des projets innovants en IA
+
+---
+
+### 🛠️ Langages et outils
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+</p>
+
+---
+
+### 📈 Statistiques GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=joel710&show_icons=true&theme=radical" alt="Statistiques GitHub de Joel710"/>
+</p>
+
+---
+
+### 💬 Citations inspirantes
+
+> "L'intelligence artificielle est la nouvelle électricité." – Andrew Ng
+
+> "Le code est comme l'humour. Quand on doit l'expliquer, c'est qu'il n'est pas bon." – Cory House
+
+---
+
+### 📫 Me contacter
+
+- 💬 Telegram : [@jojo_dev](https://t.me/jojo_dev)
+- 📱 WhatsApp : [Lien vers WhatsApp](https://wa.me/1234567890)
+- 📧 Email : joel710@example.com
+
+---
+
+### 🧑‍💻 Exemples de code
 
 ```python
 def main():
@@ -12,19 +65,4 @@ if __name__ == "__main__":
     main()
 ```
 
-🌱 Mon parcours d'apprentissage est un voyage continu vers l'excellence technique. Je m'efforce de maîtriser les concepts les plus avancés en Python et de perfectionner mes compétences en Rust pour être prêt à affronter les défis complexes du monde de l'IA.
-
-```rust
-fn main() {
-    println!("Hello, world!");
-}
-```
-
-💡 Passionné par le développement d'IA, je suis à la recherche d'opportunités de collaboration pour mettre en œuvre des projets novateurs. Mon objectif est de contribuer à la création de solutions intelligentes qui façonnent l'avenir de la technologie.
-
-📫 Vous pouvez me contacter via Telegram @jojo_dev ou WhatsApp. Je suis ouvert aux discussions, aux collaborations et aux échanges d'idées passionnantes. N'hésitez pas à me contacter pour discuter de projets intéressants ou simplement pour échanger sur nos passions communes.
-
-<!---
-joel710/joel710 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=joel710&theme=darkhub" alt="Trophées GitHub de Joel710"/> </p>
