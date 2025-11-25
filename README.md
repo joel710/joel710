@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://example.com/illustration.jpg" alt="Illustration de Joel710" width="600"/>
-</p>
+</p>n
 
 ---
 
