@@ -2,49 +2,52 @@
 
 <h1 align="center">👋 Salut, moi c’est Joël Elisée Adzonya</h1>
 <h3 align="center">
-Développeur Full-Stack • IA & Data • Électronique & Robotique
+Développeur Full-Stack • IA & Data • Électronique • Entrepreneur Tech
 </h3>
 
 <p align="center">
-Passionné par la création de solutions intelligentes combinant logiciel, données et matériel.
+Je conçois des solutions intelligentes combinant logiciel, données, IA et matériel, avec un fort impact local et global.
 </p>
 
 ---
 
 ## 🧠 À propos de moi
 
-- 🤖 Passionné par l’**intelligence artificielle**, la **robotique** et la **data science**
+- 🤖 Passionné par l’**intelligence artificielle**, la **data science** et la **robotique**
 - 💻 **Développeur Full-Stack** (Web & Mobile)
-- 📊 Spécialisé en **Machine Learning**, **NLP** et **analyse de données**
-- 🔌 Expérience en **électronique**, **Arduino**, **Raspberry Pi**
-- 🚀 Entrepreneur tech & freelance
+- 📊 Spécialisé en **Machine Learning**, **NLP**, **IA vocale** et **systèmes intelligents**
+- 🔌 Expérience en **électronique**, **IoT**, **Arduino**, **Raspberry Pi**
+- 🚀 Entrepreneur tech, freelance et formateur
 - 🤝 Ouvert aux **collaborations**, **startups**, **projets open-source**
 
 ---
 
 ## 🧩 Domaines d’expertise
 
-- **IA & Data**
-  - Machine Learning (supervisé / non supervisé)
-  - NLP (analyse de sentiments, text mining)
-  - Prétraitement de données & pipelines ML
-- **Développement**
-  - Web : Frontend & Backend
-  - Mobile : Flutter
-  - API REST
-- **Systèmes & Infra**
-  - Linux
-  - Docker (bases)
-- **Électronique**
-  - Arduino
-  - Raspberry Pi
-  - Prototypage hardware
+### 🧠 Intelligence Artificielle & Data
+- Machine Learning (supervisé / non supervisé)
+- NLP (analyse de sentiments, matching sémantique, text mining)
+- IA vocale (TTS, assistants vocaux)
+- Pipelines de preprocessing & feature engineering
+- IA géospatiale & systèmes de recommandation
+
+### 💻 Développement
+- Web : Frontend & Backend
+- Mobile : Flutter
+- API REST & services backend
+- SaaS & plateformes IA
+
+### 🔌 Électronique & IoT
+- Capteurs intelligents
+- Collecte et analyse de données terrain
+- Systèmes embarqués
+- Prototypage hardware
 
 ---
 
-## 🛠️ Technologies & Outils
+## 🛠️ Langages, Frameworks & Outils
 
-### Langages
+### 🧑‍💻 Langages
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
@@ -54,7 +57,15 @@ Passionné par la création de solutions intelligentes combinant logiciel, donn�
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
 </p>
 
-### Frameworks & Outils
+### 🧠 IA, ML & NLP
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NLTK-85C88A?style=for-the-badge"/>
+</p>
+
+### 🧰 Frameworks & Outils
 <p>
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"/>
@@ -66,16 +77,53 @@ Passionné par la création de solutions intelligentes combinant logiciel, donn�
 
 ---
 
-## 📌 Projets & Travaux notables
+## 📌 Projets & Réalisations majeures
 
-- 🤖 **Analyse de sentiment (NLP)**  
-  Modèle d’analyse de critiques de films avec nettoyage avancé des données textuelles.
-- 📱 **Applications Flutter**  
-  Authentification, systèmes de vote, affichage temps réel.
-- 🧠 **SaaS IA**  
-  Assistant intelligent pour création de contenu, marketing et automatisation.
-- 🔌 **Projets électroniques**  
-  Tests de cartes Arduino, impression 3D, capteurs & automatisation.
+### 🤖 **Yawo – IA vocale TTS en langue Éwé**
+- Synthèse vocale en langue locale (Éwé)
+- Approche NLP & phonétique adaptée aux langues africaines
+- Cas d’usage : éducation, agriculture, accessibilité
+
+---
+
+### 📄 **Algorithme de matching CV ↔ Offres d’emploi**
+- Analyse sémantique de CV et descriptions de postes
+- Score de correspondance intelligent
+- NLP, vectorisation, similarité cosine
+
+---
+
+### 📱 **Skollab**
+**Application mobile de mise en relation entre marques et créateurs de contenu**
+- Matching intelligent
+- Gestion de profils & collaborations
+- Flutter + Backend API
+
+---
+
+### 🗣️ **Echo**
+**Réseau social anonyme pour étudiants (inspiré de X / Twitter)**
+- Publications anonymes
+- Interactions en temps réel
+- Focus liberté d’expression étudiante
+
+---
+
+### 🌱 **AgriFlow**
+**Écosystème de solutions intelligentes pour l’agriculture**
+- IA vocale en langue Éwé pour les producteurs
+- Capteurs IoT pour le suivi des cultures
+- Analyse de données & insights sur la production
+- Aide à la prise de décision agricole
+
+---
+
+### 🗺️ **Tchaller**
+**IA géospatiale intelligente**
+- Recherche de services à proximité
+- Vérification de disponibilité en temps réel
+- Recommandations contextuelles
+- Cas d’usage urbain & local
 
 ---
 
@@ -101,7 +149,7 @@ Passionné par la création de solutions intelligentes combinant logiciel, donn�
 
 ## 💡 Citation
 
-> *"L’intelligence artificielle est la nouvelle électricité."* — Andrew Ng
+> *« L’intelligence artificielle est la nouvelle électricité. »* — Andrew Ng
 
 ---
 
@@ -113,4 +161,4 @@ Passionné par la création de solutions intelligentes combinant logiciel, donn�
 
 ---
 
-⭐ **N’hésite pas à explorer mes repositories et à me contacter pour collaborer**
+⭐ Explore mes repositories et collaborons sur des projets à fort impact.
