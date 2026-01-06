@@ -1,76 +1,116 @@
 <!-- Profil GitHub de Joel710 -->
 
-<h1 align="center">Salut 👋, je suis Joel710</h1>
-<h3 align="center">Développeur passionné par la robotique, la programmation et l'intelligence artificielle</h3>
+<h1 align="center">👋 Salut, moi c’est Joël Elisée Adzonya</h1>
+<h3 align="center">
+Développeur Full-Stack • IA & Data • Électronique & Robotique
+</h3>
 
 <p align="center">
-  <img src="https://example.com/illustration.jpg" alt="Illustration de Joel710" width="600"/>
-</p>n
+Passionné par la création de solutions intelligentes combinant logiciel, données et matériel.
+</p>
 
 ---
 
-### 🧠 À propos de moi
+## 🧠 À propos de moi
 
-- 🤖 Passionné par la **robotique**, la **programmation** et l'**intelligence artificielle**
-- 🚀 Toujours en quête de nouvelles connaissances et de défis techniques
-- 🐍 Actuellement en train d'approfondir mes compétences en **Python avancé**
-- 🦀 Exploration du langage **Rust** pour des performances optimales
-- 💡 Ouvert aux collaborations sur des projets innovants en IA
+- 🤖 Passionné par l’**intelligence artificielle**, la **robotique** et la **data science**
+- 💻 **Développeur Full-Stack** (Web & Mobile)
+- 📊 Spécialisé en **Machine Learning**, **NLP** et **analyse de données**
+- 🔌 Expérience en **électronique**, **Arduino**, **Raspberry Pi**
+- 🚀 Entrepreneur tech & freelance
+- 🤝 Ouvert aux **collaborations**, **startups**, **projets open-source**
 
 ---
 
-### 🛠️ Langages et outils
+## 🧩 Domaines d’expertise
 
-<p align="left">
+- **IA & Data**
+  - Machine Learning (supervisé / non supervisé)
+  - NLP (analyse de sentiments, text mining)
+  - Prétraitement de données & pipelines ML
+- **Développement**
+  - Web : Frontend & Backend
+  - Mobile : Flutter
+  - API REST
+- **Systèmes & Infra**
+  - Linux
+  - Docker (bases)
+- **Électronique**
+  - Arduino
+  - Raspberry Pi
+  - Prototypage hardware
+
+---
+
+## 🛠️ Technologies & Outils
+
+### Langages
+<p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-   <br/>
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
+</p>
+
+### Frameworks & Outils
+<p>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 </p>
 
 ---
 
-### 📈 Statistiques GitHub
+## 📌 Projets & Travaux notables
+
+- 🤖 **Analyse de sentiment (NLP)**  
+  Modèle d’analyse de critiques de films avec nettoyage avancé des données textuelles.
+- 📱 **Applications Flutter**  
+  Authentification, systèmes de vote, affichage temps réel.
+- 🧠 **SaaS IA**  
+  Assistant intelligent pour création de contenu, marketing et automatisation.
+- 🔌 **Projets électroniques**  
+  Tests de cartes Arduino, impression 3D, capteurs & automatisation.
+
+---
+
+## 📈 Statistiques GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=joel710&show_icons=true&theme=radical" alt="Statistiques GitHub de Joel710"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=joel710&show_icons=true&theme=radical"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joel710&layout=compact&theme=radical"/>
 </p>
 
 ---
 
-### 💬 Citations inspirantes
+## 🏆 Trophées GitHub
 
-> "L'intelligence artificielle est la nouvelle électricité." – Andrew Ng
-
-> "Le code est comme l'humour. Quand on doit l'expliquer, c'est qu'il n'est pas bon." – Cory House
-
----
-
-### 📫 Me contacter
-
-- 💬 Telegram : [@jojo_dev](https://t.me/jojo_dev)
-- 📱 WhatsApp : [Lien vers WhatsApp](https://wa.me/1234567890)
-- 📧 Email : joel710@example.com
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=joel710&theme=darkhub&no-frame=true"/>
+</p>
 
 ---
 
-### 🧑‍💻 Exemples de code
+## 💡 Citation
 
-```python
-def main():
-    print("Hello, world!")
+> *"L’intelligence artificielle est la nouvelle électricité."* — Andrew Ng
 
-if __name__ == "__main__":
-    main()
-```
+---
 
-<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=joel710&theme=darkhub" alt="Trophées GitHub de Joel710"/> </p>
+## 📫 Me contacter
+
+- 🌐 Portfolio : https://funny-souffle-853d6b.netlify.app  
+- 📧 Email : joeleliseeadzonya@gmail.com  
+- 📱 WhatsApp : https://wa.me/91388762  
+
+---
+
+⭐ **N’hésite pas à explorer mes repositories et à me contacter pour collaborer**
