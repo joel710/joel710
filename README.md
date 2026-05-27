@@ -155,7 +155,7 @@ Je conçois des solutions intelligentes combinant logiciel, données, IA et mat�
 
 ## 📫 Me contacter
 
-- 🌐 Portfolio : https://funny-souffle-853d6b.netlify.app  
+- 🌐 Portfolio : https://joel.adzonya.strivenew.com 
 - 📧 Email : joeleliseeadzonya@gmail.com  
 - 📱 WhatsApp : https://wa.me/91388762  
 
