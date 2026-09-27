@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 180" width="100%" height="180" fill="none">
+  <defs>
+    <linearGradient id="cmdBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141418" />
+      <stop offset="100%" stop-color="#0A0A0D" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+    .cmd-key { fill: #F59E0B; font-size: 10px; font-weight: 700; }
+    .cmd-title { fill: #FAFAFA; font-size: 12px; font-weight: 600; }
+    .cmd-desc { fill: #71717A; font-size: 11px; }
+  </style>
+
+  <!-- Base Panel -->
+  <rect width="960" height="180" rx="12" fill="url(#cmdBg)" stroke="#27272A" stroke-width="1"/>
+
+  <!-- Command Palette Header -->
+  <path d="M 0 10 C 0 4.5 4.5 0 10 0 L 950 0 C 955.5 0 960 4.5 960 10 L 960 36 L 0 36 Z" fill="#1C1C24"/>
+  <line x1="0" y1="36" x2="960" y2="36" stroke="#27272A" stroke-width="1"/>
+
+  <!-- macOS Window Controls (Subtle) -->
+  <circle cx="20" cy="18" r="4.5" fill="#EF4444" opacity="0.8"/>
+  <circle cx="34" cy="18" r="4.5" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="48" cy="18" r="4.5" fill="#10B981" opacity="0.8"/>
+
+  <!-- Search Input Simulation -->
+  <text x="76" y="22" class="mono" fill="#A1A1AA" font-size="11">connect --with "joel-elisee-adzonya"</text>
+  <rect x="330" y="10" width="8" height="15" fill="#F59E0B">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="830" y="22" class="mono" fill="#52525B" font-size="10">ESC TO CLEAR</text>
+
+  <!-- Command Item 1: Portfolio -->
+  <g transform="translate(24, 52)">
+    <rect width="216" height="48" rx="8" fill="#101014" stroke="#1F1F24" stroke-width="1"/>
+    <rect x="12" y="14" width="22" height="20" rx="4" fill="#27272A"/>
+    <text x="18" y="28" class="mono cmd-key">⌘1</text>
+    <text x="44" y="24" class="sans cmd-title">Portfolio Web</text>
+    <text x="44" y="38" class="mono cmd-desc">joel.adzonya.strivenew.com</text>
+  </g>
+
+  <!-- Command Item 2: Email -->
+  <g transform="translate(254, 52)">
+    <rect width="232" height="48" rx="8" fill="#101014" stroke="#1F1F24" stroke-width="1"/>
+    <rect x="12" y="14" width="22" height="20" rx="4" fill="#27272A"/>
+    <text x="18" y="28" class="mono cmd-key">⌘2</text>
+    <text x="44" y="24" class="sans cmd-title">Courriel Direct</text>
+    <text x="44" y="38" class="mono cmd-desc">joeleliseeadzonya@gmail.com</text>
+  </g>
+
+  <!-- Command Item 3: WhatsApp -->
+  <g transform="translate(500, 52)">
+    <rect width="216" height="48" rx="8" fill="#101014" stroke="#1F1F24" stroke-width="1"/>
+    <rect x="12" y="14" width="22" height="20" rx="4" fill="#27272A"/>
+    <text x="18" y="28" class="mono cmd-key">⌘3</text>
+    <text x="44" y="24" class="sans cmd-title">WhatsApp Direct</text>
+    <text x="44" y="38" class="mono cmd-desc">+228 91 38 87 62</text>
+  </g>
+
+  <!-- Command Item 4: Location & Status -->
+  <g transform="translate(730, 52)">
+    <rect width="206" height="48" rx="8" fill="#101014" stroke="#1F1F24" stroke-width="1"/>
+    <rect x="12" y="14" width="22" height="20" rx="4" fill="#27272A"/>
+    <text x="18" y="28" class="mono cmd-key">⌘4</text>
+    <text x="44" y="24" class="sans cmd-title">Disponibilité</text>
+    <text x="44" y="38" class="mono cmd-desc">Lomé · Global / Remote</text>
+  </g>
+
+  <!-- Bottom Command Bar Hints -->
+  <g transform="translate(24, 126)">
+    <rect width="912" height="38" rx="6" fill="#0E0E12" stroke="#18181D" stroke-width="1"/>
+    <circle cx="16" cy="19" r="3" fill="#10B981"/>
+    <text x="26" y="23" class="mono" fill="#D4D4D8" font-size="10.5">STATUS: OPEN FOR R&amp;D VENTURES, APPLIED AI &amp; HIGH-IMPACT SYSTEMS ARCHITECTURE</text>
+    <text x="836" y="23" class="mono" fill="#F59E0B" font-size="10.5">READY ↵</text>
+  </g>
+</svg>

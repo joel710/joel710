@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 450" width="100%" height="450" fill="none">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121217" />
+      <stop offset="100%" stop-color="#0A0A0D" />
+    </linearGradient>
+
+    <linearGradient id="amberAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#FBBF24" stop-opacity="1" />
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Radar Pulse -->
+    <radialGradient id="radarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+    .card-title { font-weight: 700; fill: #FAFAFA; font-size: 13.5px; letter-spacing: -0.01em; }
+    .card-kicker { font-size: 9.5px; font-weight: 600; letter-spacing: 0.12em; fill: #F59E0B; text-transform: uppercase; }
+    .card-desc { font-size: 11.5px; fill: #A1A1AA; font-weight: 400; line-height: 1.45; }
+    .pill-text { font-size: 9px; font-weight: 600; fill: #D4D4D8; }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="960" height="450" rx="14" fill="#060608" stroke="#1F1F24" stroke-width="1"/>
+
+  <!-- ==================== TOP ROW ==================== -->
+
+  <!-- CARD 1: YAWO ÉWÉ TTS ENGINE (Width: 580, Height: 210) -->
+  <g transform="translate(18, 18)">
+    <rect width="580" height="210" rx="10" fill="url(#cardBg)" stroke="#27272A" stroke-width="1"/>
+    
+    <!-- Top Bar -->
+    <path d="M 0 10 C 0 4.5 4.5 0 10 0 L 570 0 C 575.5 0 580 4.5 580 10 L 580 36 L 0 36 Z" fill="#17171D"/>
+    <line x1="0" y1="36" x2="580" y2="36" stroke="#27272A" stroke-width="1"/>
+    
+    <text x="18" y="22" class="mono card-kicker">01 // RECHERCHE APPLIQUÉE &amp; NLP</text>
+    <rect x="445" y="9" width="118" height="18" rx="9" fill="#27272A"/>
+    <text x="456" y="21.5" class="mono pill-text" fill="#FBBF24">ÉWÉ TONE-AWARE</text>
+
+    <!-- Content -->
+    <text x="18" y="62" class="sans card-title">Yawo — Synthèse Vocale &amp; Modélisation Acoustique</text>
+    <text x="18" y="82" class="sans card-desc">
+      Moteur TTS dédié aux langues ouest-africaines. Modélisation des contours tonals (haut, moyen, bas)<br/>
+      et formants essentiels au sens, permettant l’accès vocal pour les populations non-alphabétisées.
+    </text>
+
+    <!-- Animated Waveform Graphic -->
+    <g transform="translate(18, 108)">
+      <rect width="544" height="46" rx="6" fill="#0D0D11" stroke="#1F1F24" stroke-width="1"/>
+      
+      <!-- Waveform Bars -->
+      <g transform="translate(12, 23)">
+        <!-- Dynamic Heights -->
+        <line x1="10" y1="-8" x2="10" y2="8" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="25" y1="-14" x2="25" y2="14" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="40" y1="-5" x2="40" y2="5" stroke="#71717A" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="55" y1="-18" x2="55" y2="18" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="70" y1="-10" x2="70" y2="10" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="85" y1="-15" x2="85" y2="15" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="100" y1="-6" x2="100" y2="6" stroke="#71717A" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="115" y1="-12" x2="115" y2="12" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="130" y1="-4" x2="130" y2="4" stroke="#71717A" stroke-width="2.5" stroke-linecap="round"/>
+        
+        <!-- Pitch Contour Curve -->
+        <path d="M 160 -10 C 220 12, 280 -16, 350 -2 C 410 10, 470 -8, 510 4" fill="none" stroke="url(#waveGrad)" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="350" cy="-2" r="3.5" fill="#F59E0B"/>
+        <text x="360" y="-5" class="mono" fill="#F59E0B" font-size="8">F0 FO-TRACK: 142Hz</text>
+      </g>
+    </g>
+
+    <!-- Bottom Tech Pills -->
+    <g transform="translate(18, 172)">
+      <rect width="66" height="20" rx="4" fill="#1A1A22"/>
+      <text x="10" y="14" class="mono pill-text">PyTorch</text>
+
+      <rect x="74" width="68" height="20" rx="4" fill="#1A1A22"/>
+      <text x="84" y="14" class="mono pill-text">Librosa</text>
+
+      <rect x="150" width="88" height="20" rx="4" fill="#1A1A22"/>
+      <text x="160" y="14" class="mono pill-text">Phonétique</text>
+
+      <rect x="246" width="94" height="20" rx="4" fill="#1A1A22"/>
+      <text x="256" y="14" class="mono pill-text">Audio DSP</text>
+
+      <text x="440" y="14" class="mono" fill="#71717A" font-size="9.5">INFERENCE // LOW-LATENCY</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: AGRIFLOW HARDWARE & IOT (Width: 326, Height: 210) -->
+  <g transform="translate(616, 18)">
+    <rect width="326" height="210" rx="10" fill="url(#cardBg)" stroke="#27272A" stroke-width="1"/>
+    
+    <!-- Top Bar -->
+    <path d="M 0 10 C 0 4.5 4.5 0 10 0 L 316 0 C 321.5 0 326 4.5 326 10 L 326 36 L 0 36 Z" fill="#17171D"/>
+    <line x1="0" y1="36" x2="326" y2="36" stroke="#27272A" stroke-width="1"/>
+    
+    <text x="16" y="22" class="mono card-kicker">02 // EMBARQUÉ &amp; TÉLÉMÉTRIE</text>
+    <circle cx="306" cy="18" r="3" fill="#10B981"/>
+
+    <!-- Content -->
+    <text x="16" y="62" class="sans card-title">AgriFlow — Télémétrie &amp; IoT Sol</text>
+    <text x="16" y="80" class="sans card-desc">
+      Station de sondes autonomes en champ ouvert.<br/>
+      Mesure d'humidité, température et restitution vocale<br/>
+      Éwé hors-ligne pour agriculteurs.
+    </text>
+
+    <!-- Hardware Visualizer Diagram -->
+    <g transform="translate(16, 118)">
+      <rect width="294" height="42" rx="6" fill="#0D0D11" stroke="#1F1F24" stroke-width="1"/>
+      
+      <!-- Nodes -->
+      <g transform="translate(10, 12)">
+        <rect width="64" height="18" rx="3" fill="#27272A"/>
+        <text x="8" y="13" class="mono" fill="#FAFAFA" font-size="8.5">ESP32 S3</text>
+
+        <path d="M 68 9 L 98 9" stroke="#F59E0B" stroke-width="1.2" stroke-dasharray="2 2"/>
+
+        <rect x="102" width="76" height="18" rx="3" fill="#27272A"/>
+        <text x="110" y="13" class="mono" fill="#FAFAFA" font-size="8.5">CAPTEURS</text>
+
+        <path d="M 182 9 L 212 9" stroke="#10B981" stroke-width="1.2"/>
+
+        <rect x="216" width="62" height="18" rx="3" fill="#1F2937"/>
+        <text x="224" y="13" class="mono" fill="#34D399" font-size="8.5">VOIX ÉWÉ</text>
+      </g>
+    </g>
+
+    <!-- Bottom Specs -->
+    <g transform="translate(16, 178)">
+      <text x="0" y="12" class="mono" fill="#71717A" font-size="9">SOLAR: AUTO</text>
+      <text x="100" y="12" class="mono" fill="#71717A" font-size="9">BUFFER: FLASH</text>
+      <text x="210" y="12" class="mono" fill="#F59E0B" font-size="9">OFFLINE-FIRST</text>
+    </g>
+  </g>
+
+  <!-- ==================== BOTTOM ROW ==================== -->
+
+  <!-- CARD 3: TCHALLER GEOSPATIAL (Width: 290, Height: 184) -->
+  <g transform="translate(18, 246)">
+    <rect width="290" height="184" rx="10" fill="url(#cardBg)" stroke="#27272A" stroke-width="1"/>
+    
+    <path d="M 0 10 C 0 4.5 4.5 0 10 0 L 280 0 C 285.5 0 290 4.5 290 10 L 290 34 L 0 34 Z" fill="#17171D"/>
+    <line x1="0" y1="34" x2="290" y2="34" stroke="#27272A" stroke-width="1"/>
+    <text x="16" y="21" class="mono card-kicker">03 // GÉOSPATIAL URBAIN</text>
+
+    <text x="16" y="58" class="sans card-title">Tchaller — Radar &amp; Proximité</text>
+    <text x="16" y="76" class="sans card-desc">
+      Indexation de services urbains dynamiques,<br/>
+      routage contextuel et requêtes spatiales.
+    </text>
+
+    <!-- Mini Radar Graphic -->
+    <g transform="translate(16, 102)">
+      <rect width="258" height="38" rx="5" fill="#0D0D11" stroke="#1F1F24" stroke-width="1"/>
+      <circle cx="28" cy="19" r="12" stroke="#27272A" stroke-width="1" fill="none"/>
+      <circle cx="28" cy="19" r="6" stroke="#F59E0B" stroke-width="1" fill="none"/>
+      <circle cx="34" cy="16" r="2" fill="#F59E0B"/>
+      
+      <text x="52" y="17" class="mono" fill="#FAFAFA" font-size="9" font-weight="600">SPATIAL INDEX // H3 GEO</text>
+      <text x="52" y="28" class="mono" fill="#71717A" font-size="8">Latency &lt; 25ms • Real-time query</text>
+    </g>
+
+    <g transform="translate(16, 158)">
+      <rect width="60" height="18" rx="3" fill="#1A1A22"/>
+      <text x="8" y="12.5" class="mono pill-text">Flutter</text>
+      <rect x="68" width="60" height="18" rx="3" fill="#1A1A22"/>
+      <text x="76" y="12.5" class="mono pill-text">GeoJSON</text>
+      <rect x="136" width="70" height="18" rx="3" fill="#1A1A22"/>
+      <text x="144" y="12.5" class="mono pill-text">REST API</text>
+    </g>
+  </g>
+
+  <!-- CARD 4: SKOLLAB & ECHO (Width: 320, Height: 184) -->
+  <g transform="translate(320, 246)">
+    <rect width="320" height="184" rx="10" fill="url(#cardBg)" stroke="#27272A" stroke-width="1"/>
+    
+    <path d="M 0 10 C 0 4.5 4.5 0 10 0 L 310 0 C 315.5 0 320 4.5 320 10 L 320 34 L 0 34 Z" fill="#17171D"/>
+    <line x1="0" y1="34" x2="320" y2="34" stroke="#27272A" stroke-width="1"/>
+    <text x="16" y="21" class="mono card-kicker">04 // MOBILE &amp; DISTRIBUÉ</text>
+
+    <text x="16" y="58" class="sans card-title">Skollab &amp; Echo — Apps Flutter</text>
+    <text x="16" y="76" class="sans card-desc">
+      Marketplace créateurs &amp; réseau anonyme étudiant.<br/>
+      Architecture réactive, WebSockets et état optimisé.
+    </text>
+
+    <!-- Architecture Strip -->
+    <g transform="translate(16, 102)">
+      <rect width="288" height="38" rx="5" fill="#0D0D11" stroke="#1F1F24" stroke-width="1"/>
+      <text x="12" y="16" class="mono" fill="#71717A" font-size="8.5">SOCKET FEED ──&gt; STATE REDUCER ──&gt; FLUTTER UI</text>
+      <text x="12" y="28" class="mono" fill="#F59E0B" font-size="8.5">60 FPS SMOOTH RENDER • LOW BANDWIDTH</text>
+    </g>
+
+    <g transform="translate(16, 158)">
+      <rect width="56" height="18" rx="3" fill="#1A1A22"/>
+      <text x="8" y="12.5" class="mono pill-text">Flutter</text>
+      <rect x="64" width="50" height="18" rx="3" fill="#1A1A22"/>
+      <text x="72" y="12.5" class="mono pill-text">Dart</text>
+      <rect x="122" width="76" height="18" rx="3" fill="#1A1A22"/>
+      <text x="130" y="12.5" class="mono pill-text">WebSockets</text>
+      <rect x="206" width="60" height="18" rx="3" fill="#1A1A22"/>
+      <text x="214" y="12.5" class="mono pill-text">Scalable</text>
+    </g>
+  </g>
+
+  <!-- CARD 5: ARCHITECTURAL PRINCIPLES (Width: 284, Height: 184) -->
+  <g transform="translate(658, 246)">
+    <rect width="284" height="184" rx="10" fill="url(#cardBg)" stroke="#27272A" stroke-width="1"/>
+    
+    <path d="M 0 10 C 0 4.5 4.5 0 10 0 L 274 0 C 279.5 0 284 4.5 284 10 L 284 34 L 0 34 Z" fill="#17171D"/>
+    <line x1="0" y1="34" x2="284" y2="34" stroke="#27272A" stroke-width="1"/>
+    <text x="16" y="21" class="mono card-kicker">05 // CONVICTIONS D’INGÉNIERIE</text>
+
+    <g transform="translate(16, 52)">
+      <text x="0" y="0" class="mono" fill="#F59E0B" font-size="9" font-weight="700">01. CONTEXT-FIRST</text>
+      <text x="0" y="14" class="sans" fill="#A1A1AA" font-size="11">Des solutions taillées pour les réalités du terrain.</text>
+
+      <text x="0" y="42" class="mono" fill="#F59E0B" font-size="9" font-weight="700">02. FULL-SPECTRUM</text>
+      <text x="0" y="56" class="sans" fill="#A1A1AA" font-size="11">Maîtrise du capteur physique jusqu'à l'UI finale.</text>
+
+      <text x="0" y="84" class="mono" fill="#F59E0B" font-size="9" font-weight="700">03. ZERO SLOP</text>
+      <text x="0" y="98" class="sans" fill="#A1A1AA" font-size="11">Des architectures sobres, pérennes et mesurables.</text>
+    </g>
+  </g>
+
+</svg>
