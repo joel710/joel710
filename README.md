@@ -5,6 +5,13 @@
 
   <br/><br/>
 
+  <!-- Circular Profile Portrait -->
+  <a href="https://joel.adzonya.strivenew.com">
+    <img src="./assets/joel-circle.png" width="120" height="120" alt="Joël Elisée Adzonya" />
+  </a>
+
+  <br/><br/>
+
   <!-- Dynamic Typing Telemetry -->
   <a href="https://github.com/joel710">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1200&color=F59E0B&center=true&vCenter=true&width=750&lines=Applied+AI+%26+African+Language+Speech+Synthesis;IoT+Field+Telemetry+%26+Autonomous+Sensor+Nodes;Flutter+Mobile+%26+Event-Driven+Real-Time+Systems;Full-Pipeline+Engineering+from+Silicon+to+Interface" alt="Typing SVG" />
