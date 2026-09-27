@@ -1,164 +1,110 @@
-<!-- Profil GitHub de Joel710 -->
+<div align="center">
+  <img src="./assets/header.svg" alt="Joël Elisée Adzonya - Systems, Applied AI & Embedded Engineering" width="100%" />
+</div>
 
-<h1 align="center">👋 Salut, moi c’est Joël Elisée Adzonya</h1>
-<h3 align="center">
-Développeur Full-Stack • IA & Data • Électronique • Entrepreneur Tech
-</h3>
+<br/>
 
-<p align="center">
-Je conçois des solutions intelligentes combinant logiciel, données, IA et matériel, avec un fort impact local et global.
-</p>
+## // PROFIL & VISION D'INGÉNIERIE
 
----
+Je conçois des systèmes techniques de bout en bout, là où le matériel, la donnée et le logiciel convergent. 
 
-## 🧠 À propos de moi
+Mon travail se concentre sur la résolution de problèmes réels à fort impact : adapter l'intelligence artificielle aux contextes africains (notamment le traitement de la parole et le NLP pour les langues locales comme l'**Éwé**), concevoir des nœuds télémétriques **IoT** pour le terrain agricole, et développer des applications mobiles et distribuées véloces et résilientes.
 
-- 🤖 Passionné par l’**intelligence artificielle**, la **data science** et la **robotique**
-- 💻 **Développeur Full-Stack** (Web & Mobile)
-- 📊 Spécialisé en **Machine Learning**, **NLP**, **IA vocale** et **systèmes intelligents**
-- 🔌 Expérience en **électronique**, **IoT**, **Arduino**, **Raspberry Pi**
-- 🚀 Entrepreneur tech, freelance et formateur
-- 🤝 Ouvert aux **collaborations**, **startups**, **projets open-source**
+```
+[ CAPTEURS & TÉLÉMÉTRIE ]  ──>  [ MODÈLES ACOUSTIQUES & NLP ]  ──>  [ INTERFACES FLUTTER & WEB ]
+        (ESP32 / Edge)                   (PyTorch / Éwé TTS)                (Mobile / Cloud APIs)
+```
 
 ---
 
-## 🧩 Domaines d’expertise
+## // SYSTÈMES & PROJETS PHARE
 
-### 🧠 Intelligence Artificielle & Data
-- Machine Learning (supervisé / non supervisé)
-- NLP (analyse de sentiments, matching sémantique, text mining)
-- IA vocale (TTS, assistants vocaux)
-- Pipelines de preprocessing & feature engineering
-- IA géospatiale & systèmes de recommandation
-
-### 💻 Développement
-- Web : Frontend & Backend
-- Mobile : Flutter
-- API REST & services backend
-- SaaS & plateformes IA
-
-### 🔌 Électronique & IoT
-- Capteurs intelligents
-- Collecte et analyse de données terrain
-- Systèmes embarqués
-- Prototypage hardware
-
----
-
-## 🛠️ Langages, Frameworks & Outils
-
-### 🧑‍💻 Langages
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
-</p>
-
-### 🧠 IA, ML & NLP
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NLTK-85C88A?style=for-the-badge"/>
-</p>
-
-### 🧰 Frameworks & Outils
-<p>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 / Yawo — IA Vocale & TTS en Langue Éwé</h3>
+      <p><strong>Moteur de synthèse vocale adapté aux spécificités tonales et phonétiques des langues ouest-africaines.</strong></p>
+      <ul>
+        <li>Transcription phonétique et modélisation acoustique prenant en compte les contours tonals essentiels au sens en Éwé.</li>
+        <li>Conçu pour combler le fossé numérique auprès des populations non alphabétisées (accès aux services essentiels, éducation, santé).</li>
+        <li><strong>Stack :</strong> Python, PyTorch, Librosa, Traitement du Signal Audio, NLP.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 / AgriFlow — Télémétrie Agricole & Guidage Vocal</h3>
+      <p><strong>Écosystème IoT et d'aide à la décision agricole en conditions réelles et basse connectivité.</strong></p>
+      <ul>
+        <li>Collecte et analyse de métriques sols et micro-climatiques via des sondes et nœuds autonomes basse consommation.</li>
+        <li>Restitution des recommandations agronomiques en langue locale Éwé via le moteur Yawo pour les producteurs de terrain.</li>
+        <li><strong>Stack :</strong> ESP32, C/C++, Réseaux de capteurs, Edge AI, API Backend.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03 / Tchaller — Moteur Géospatial Intelligent</h3>
+      <p><strong>Plateforme de découverte contextuelle et d'indexation de services de proximité en temps réel.</strong></p>
+      <ul>
+        <li>Algorithmes de géolocalisation haute précision et vérification dynamique de disponibilité de services urbains.</li>
+        <li>Recommandations contextuelles basées sur la proximité géographique et la pertinence locale.</li>
+        <li><strong>Stack :</strong> Flutter, Indexation Spatiale, REST APIs, GeoJSON.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>04 / Skollab & Echo — Plateformes Mobiles & Temps Réel</h3>
+      <p><strong>Infrastructures applicatives pour communautés étudiantes et créateurs de contenu.</strong></p>
+      <ul>
+        <li><strong>Skollab :</strong> Marketplace mobile de mise en relation intelligente entre marques et créateurs avec flux de collaboration automatisés.</li>
+        <li><strong>Echo :</strong> Réseau d'expression étudiant temps réel, anonymisé et sécurisé, optimisé pour la fluidité d'échange.</li>
+        <li><strong>Stack :</strong> Flutter, Dart, WebSockets, Architectures d'APIs asynchrones.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📌 Projets & Réalisations majeures
+## // ARSENAL TECHNIQUE & MATRICE DE COMPÉTENCES
 
-### 🤖 **Yawo – IA vocale TTS en langue Éwé**
-- Synthèse vocale en langue locale (Éwé)
-- Approche NLP & phonétique adaptée aux langues africaines
-- Cas d’usage : éducation, agriculture, accessibilité
+<div align="center">
+  <img src="./assets/stack.svg" alt="Technical Competency Matrix" width="100%" />
+</div>
 
----
+<br/>
 
-### 📄 **Algorithme de matching CV ↔ Offres d’emploi**
-- Analyse sémantique de CV et descriptions de postes
-- Score de correspondance intelligent
-- NLP, vectorisation, similarité cosine
+### Détail des environnements de travail
 
----
-
-### 📱 **Skollab**
-**Application mobile de mise en relation entre marques et créateurs de contenu**
-- Matching intelligent
-- Gestion de profils & collaborations
-- Flutter + Backend API
+| Domaine | Technologies & Outils |
+| :--- | :--- |
+| **Applied AI & Audio** | PyTorch, NLP, TTS (Synthèse vocale), Traitement du signal (DSP), Vector Embeddings, NLTK |
+| **Systèmes Embarqués & IoT** | ESP32, Arduino, Raspberry Pi, Capteurs télémétriques, Prototypage hardware, Linux embarqué |
+| **Développement Produit** | Dart / Flutter (iOS & Android), Python (FastAPI), TypeScript, Vue.js, Architecture logicielle |
+| **Infrastructure & Ops** | Docker, Git, Linux (SysAdmin, Shell), CI/CD, Intégrations API REST & WebSockets |
 
 ---
 
-### 🗣️ **Echo**
-**Réseau social anonyme pour étudiants (inspiré de X / Twitter)**
-- Publications anonymes
-- Interactions en temps réel
-- Focus liberté d’expression étudiante
+## // PRINCIPES DE CONCEPTION
+
+```
+01. CONTEXT-FIRST     L'ingénierie doit répondre aux réalités locales (basse connectivité, langues tonales).
+02. FULL-PIPELINE     Maîtrise de la chaîne complète : de l'électronique de capture à l'UX finale.
+03. NO UNNECESSARY    Des architectures robustes, mesurables et dénuées de complexité superflue.
+```
 
 ---
 
-### 🌱 **AgriFlow**
-**Écosystème de solutions intelligentes pour l’agriculture**
-- IA vocale en langue Éwé pour les producteurs
-- Capteurs IoT pour le suivi des cultures
-- Analyse de données & insights sur la production
-- Aide à la prise de décision agricole
+## // ME CONTACTER & COLLABORER
 
----
+Je suis disponible pour des missions d'architecture, de R&D appliquée (IA vocale, IoT, NLP langues africaines) et le développement de produits technologiques ambitieux.
 
-### 🗺️ **Tchaller**
-**IA géospatiale intelligente**
-- Recherche de services à proximité
-- Vérification de disponibilité en temps réel
-- Recommandations contextuelles
-- Cas d’usage urbain & local
+```bash
+$ contact --developer "Joël Elisée Adzonya"
+> Portfolio  : https://joel.adzonya.strivenew.com
+> Email      : joeleliseeadzonya@gmail.com
+> WhatsApp   : +228 91 38 87 62 (https://wa.me/22891388762)
+> Localité   : Lomé, Togo (UTC+0)
+```
 
----
-
-## 📈 Statistiques GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=joel710&show_icons=true&theme=radical"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joel710&layout=compact&theme=radical"/>
-</p>
-
----
-
-## 🏆 Trophées GitHub
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=joel710&theme=darkhub&no-frame=true"/>
-</p>
-
----
-
-## 💡 Citation
-
-> *« L’intelligence artificielle est la nouvelle électricité. »* — Andrew Ng
-
----
-
-## 📫 Me contacter
-
-- 🌐 Portfolio : https://joel.adzonya.strivenew.com 
-- 📧 Email : joeleliseeadzonya@gmail.com  
-- 📱 WhatsApp : https://wa.me/91388762  
-
----
-
-⭐ Explore mes repositories et collaborons sur des projets à fort impact.
+<div align="center">
+  <sub>Conçu avec précision • Joël Elisée Adzonya</sub>
+</div>

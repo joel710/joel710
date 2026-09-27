@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" width="100%" height="260" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="45%" stop-color="#0D1321" />
+      <stop offset="100%" stop-color="#06090F" />
+    </linearGradient>
+
+    <!-- Top Glow Line -->
+    <linearGradient id="topGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#6366F1" stop-opacity="0.6" />
+      <stop offset="80%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Subtle Grid -->
+    <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+    .title { font-weight: 800; letter-spacing: -0.035em; fill: #F8FAFC; }
+    .subtitle { font-weight: 600; letter-spacing: 0.14em; fill: #38BDF8; font-size: 10.5px; text-transform: uppercase; }
+    .tagline { font-weight: 400; fill: #94A3B8; font-size: 13.5px; line-height: 1.5; }
+    .meta-lbl { fill: #475569; font-size: 9.5px; font-weight: 600; letter-spacing: 0.08em; }
+    .meta-txt { fill: #CBD5E1; font-size: 11px; font-weight: 500; }
+  </style>
+
+  <!-- Base Panel -->
+  <rect width="960" height="260" rx="10" fill="url(#bgGrad)"/>
+  <rect width="960" height="260" rx="10" fill="url(#gridPattern)"/>
+  <rect width="958" height="258" x="1" y="1" rx="9" fill="none" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Top Line Accent -->
+  <rect x="1" y="1" width="480" height="2" fill="url(#topGlow)" rx="1"/>
+
+  <!-- Top Status Badge -->
+  <g transform="translate(36, 28)">
+    <rect width="118" height="22" rx="11" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="13" cy="11" r="3.5" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <text x="23" y="15" class="mono" fill="#E2E8F0" font-size="9" font-weight="600" letter-spacing="0.06em">SYS.ACTIVE // ENG</text>
+    <text x="132" y="15" class="mono" fill="#475569" font-size="10" letter-spacing="0.08em">ID: JOEL710 // RESEARCH &amp; BUILD</text>
+  </g>
+
+  <!-- Name & Identity -->
+  <g transform="translate(36, 84)">
+    <text x="0" y="0" class="mono subtitle">SYSTEMS • APPLIED AI • EMBEDDED TELEMETRY</text>
+    <text x="0" y="38" class="sans title" font-size="33">Joël Elisée Adzonya</text>
+    <text x="0" y="68" class="sans tagline">
+      Concevoir des architectures complètes, du capteur IoT à l’IA vocale en langues africaines.
+    </text>
+  </g>
+
+  <!-- Bottom Technical Meta Grid (Left Section: 0 to 600) -->
+  <g transform="translate(36, 202)">
+    <!-- Slot 1 -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" class="mono meta-lbl">PRIMARY CORE</text>
+      <text x="0" y="17" class="mono meta-txt">Python · Dart · Rust · PyTorch</text>
+    </g>
+
+    <line x1="205" y1="-6" x2="205" y2="20" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Slot 2 -->
+    <g transform="translate(225, 0)">
+      <text x="0" y="0" class="mono meta-lbl">APPLIED SPECIALTY</text>
+      <text x="0" y="17" class="mono meta-txt">Éwé TTS · IoT Telemetry · Mobile</text>
+    </g>
+
+    <line x1="445" y1="-6" x2="445" y2="20" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Slot 3 -->
+    <g transform="translate(465, 0)">
+      <text x="0" y="0" class="mono meta-lbl">LOCALE / ARCH</text>
+      <text x="0" y="17" class="mono meta-txt">Lomé, Togo (UTC+0) · Edge-First</text>
+    </g>
+  </g>
+
+  <!-- Right Visual Architectural Schematics HUD -->
+  <g transform="translate(686, 26)">
+    <!-- Housing Card -->
+    <rect width="238" height="208" rx="8" fill="#0B101D" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Sub-header -->
+    <path d="M 0 8 C 0 3.5 3.5 0 8 0 L 230 0 C 234.5 0 238 3.5 238 8 L 238 28 L 0 28 Z" fill="#0F172A"/>
+    <line x1="0" y1="28" x2="238" y2="28" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="18" class="mono" fill="#64748B" font-size="9" font-weight="600" letter-spacing="0.1em">EXECUTION PIPELINE</text>
+    <circle cx="220" cy="14" r="2.5" fill="#38BDF8"/>
+
+    <!-- Node 1: Physical / Sensors -->
+    <g transform="translate(14, 40)">
+      <rect width="210" height="36" rx="5" fill="#111827" stroke="#1F2937" stroke-width="0.8"/>
+      <circle cx="12" cy="18" r="3" fill="#F59E0B"/>
+      <text x="24" y="16" class="mono" fill="#E2E8F0" font-size="9.5" font-weight="600">PHYSICAL SENSING</text>
+      <text x="24" y="27" class="mono" fill="#64748B" font-size="8">ESP32 · Field IoT · Micro-sensors</text>
+    </g>
+
+    <!-- Flow Connector 1 -->
+    <line x1="119" y1="77" x2="119" y2="87" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2 2"/>
+    <polygon points="117.5,87 120.5,87 119,90" fill="#38BDF8"/>
+
+    <!-- Node 2: Intelligence / Speech & NLP -->
+    <g transform="translate(14, 92)">
+      <rect width="210" height="36" rx="5" fill="#111827" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.8"/>
+      <circle cx="12" cy="18" r="3" fill="#38BDF8"/>
+      <text x="24" y="16" class="mono" fill="#F8FAFC" font-size="9.5" font-weight="600">INTELLIGENCE &amp; SPEECH</text>
+      <text x="24" y="27" class="mono" fill="#94A3B8" font-size="8">Yawo Éwé TTS · NLP · Inference</text>
+    </g>
+
+    <!-- Flow Connector 2 -->
+    <line x1="119" y1="129" x2="119" y2="139" stroke="#6366F1" stroke-width="1" stroke-dasharray="2 2"/>
+    <polygon points="117.5,139 120.5,139 119,142" fill="#6366F1"/>
+
+    <!-- Node 3: Products / Client Platform -->
+    <g transform="translate(14, 144)">
+      <rect width="210" height="36" rx="5" fill="#111827" stroke="#1F2937" stroke-width="0.8"/>
+      <circle cx="12" cy="18" r="3" fill="#10B981"/>
+      <text x="24" y="16" class="mono" fill="#E2E8F0" font-size="9.5" font-weight="600">INTERFACE &amp; PLATFORM</text>
+      <text x="24" y="27" class="mono" fill="#64748B" font-size="8">Flutter (Mobile) · Distributed APIs</text>
+    </g>
+
+    <!-- Footer Status -->
+    <text x="14" y="196" class="mono" fill="#475569" font-size="8">END-TO-END PIPELINE</text>
+    <text x="186" y="196" class="mono" fill="#10B981" font-size="8">STABLE</text>
+  </g>
+</svg>
