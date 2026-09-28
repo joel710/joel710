@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" width="100%" height="270" fill="none">
+  <defs>
+    <!-- Background Gradient: Obsidian Terminal -->
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F0F13" />
+      <stop offset="100%" stop-color="#08080B" />
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="termHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#18181F" />
+      <stop offset="100%" stop-color="#131318" />
+    </linearGradient>
+
+    <!-- Amber Glow -->
+    <filter id="glowAmber" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#F59E0B" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
+    .term-title { fill: #71717A; font-size: 11px; font-weight: 600; letter-spacing: 0.05em; }
+    .cmd-prompt { fill: #F59E0B; font-weight: 700; font-size: 12.5px; }
+    .cmd-user { fill: #E4E4E7; font-weight: 600; font-size: 12.5px; }
+    .cmd-text { fill: #FAFAFA; font-weight: 600; font-size: 12.5px; }
+    .sys-label { fill: #71717A; font-size: 11.5px; font-weight: 500; }
+    .sys-val { fill: #E4E4E7; font-size: 11.5px; font-weight: 500; }
+    .sys-hl { fill: #F59E0B; font-size: 11.5px; font-weight: 700; }
+    .sys-ok { fill: #10B981; font-size: 11.5px; font-weight: 700; }
+    .sys-badge { fill: #FBBF24; font-size: 10px; font-weight: 700; letter-spacing: 0.06em; }
+  </style>
+
+  <!-- Window Container -->
+  <rect width="960" height="270" rx="10" fill="url(#termBg)" stroke="#27272A" stroke-width="1.2"/>
+
+  <!-- Terminal Window Bar -->
+  <path d="M 0 10 C 0 4.5 4.5 0 10 0 L 950 0 C 955.5 0 960 4.5 960 10 L 960 36 L 0 36 Z" fill="url(#termHeader)"/>
+  <line x1="0" y1="36" x2="960" y2="36" stroke="#27272A" stroke-width="1"/>
+
+  <!-- Traffic Lights -->
+  <circle cx="20" cy="18" r="5" fill="#EF4444" opacity="0.85"/>
+  <circle cx="36" cy="18" r="5" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="52" cy="18" r="5" fill="#10B981" opacity="0.85"/>
+
+  <!-- Title Center -->
+  <text x="480" y="22" text-anchor="middle" class="mono term-title">joel@lome-gateway: ~ (bash) — 960x270</text>
+
+  <!-- Terminal Session Content -->
+  <g transform="translate(24, 62)">
+    <!-- Command Line 1 -->
+    <text x="0" y="0" class="mono">
+      <tspan class="cmd-prompt">joel@togo-node</tspan><tspan fill="#71717A">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#71717A">$</tspan> <tspan class="cmd-text">systemctl status joel-adzonya.core --verbose</tspan>
+    </text>
+
+    <!-- System Status Output -->
+    <g transform="translate(4, 24)">
+      <!-- Line: Active status -->
+      <text x="0" y="0" class="mono">
+        <tspan class="sys-ok">●</tspan> <tspan class="sys-val" font-weight="700">joel-adzonya.service</tspan> <tspan fill="#71717A">-</tspan> <tspan class="sys-val">Ingénieur Systèmes, IA Appliquée &amp; Matériel</tspan>
+      </text>
+
+      <!-- Line: State -->
+      <text x="16" y="20" class="mono">
+        <tspan class="sys-label">Statut       :</tspan> <tspan class="sys-ok">actif (en production)</tspan> <tspan fill="#52525B">│</tspan> <tspan class="sys-label">Localisation :</tspan> <tspan class="sys-val">Lomé, Togo [UTC+0]</tspan>
+      </text>
+
+      <!-- Line: Major Milestone Éwé LLM -->
+      <text x="16" y="42" class="mono">
+        <tspan class="sys-hl">Réalisation  :</tspan> <tspan class="sys-hl" font-weight="800">PREMIER LLM NATIVEMENT ENTRAÎNÉ EN LANGUE ÉWÉ</tspan> <tspan class="sys-badge">[1ER AU TOGO]</tspan>
+      </text>
+
+      <!-- Line: Specialty scope -->
+      <text x="16" y="64" class="mono">
+        <tspan class="sys-label">Architecture :</tspan> <tspan class="sys-val">Traitement de parole &amp; NLP africain · Télémétrie IoT · Apps Flutter</tspan>
+      </text>
+
+      <!-- Line: Core tools -->
+      <text x="16" y="86" class="mono">
+        <tspan class="sys-label">Stack Core   :</tspan> <tspan class="sys-val">PyTorch · Python · ESP32 (C/C++) · Flutter/Dart · Rust · Docker</tspan>
+      </text>
+
+      <!-- Line: Mission -->
+      <text x="16" y="108" class="mono">
+        <tspan class="sys-label">Conviction   :</tspan> <tspan class="sys-val">« Du silicium physique aux modèles linguistiques locaux sans boîte noire. »</tspan>
+      </text>
+    </g>
+
+    <!-- Prompt 2 with Blinking Cursor -->
+    <g transform="translate(0, 168)">
+      <text x="0" y="0" class="mono">
+        <tspan class="cmd-prompt">joel@togo-node</tspan><tspan fill="#71717A">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#71717A">$</tspan> <tspan class="cmd-text">./display-flagship-projects.sh --all</tspan>
+      </text>
+      <!-- Blinking Cursor -->
+      <rect x="364" y="-11" width="7.5" height="15" fill="#F59E0B">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>

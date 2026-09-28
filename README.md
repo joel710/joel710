@@ -1,122 +1,116 @@
 <div align="center">
 
-  <!-- Master Hero Header -->
-  <img src="./assets/hero.svg" alt="Joël Elisée Adzonya // Systems, Applied AI & Hardware" width="100%" />
+  <!-- Master Terminal CLI Window -->
+  <img src="./assets/terminal.svg" alt="Joel Adzonya Terminal Core" width="100%" />
 
   <br/><br/>
 
-  <!-- Circular Profile Portrait -->
+  <!-- Circular Profile Avatar -->
   <a href="https://joel.adzonya.strivenew.com">
-    <img src="./assets/joel-circle.png" width="120" height="120" alt="Joël Elisée Adzonya" />
+    <img src="./assets/joel-circle.png" width="115" height="115" alt="Joël Elisée Adzonya" />
   </a>
 
-  <br/><br/>
+  <br/>
 
   <!-- Dynamic Typing Telemetry -->
   <a href="https://github.com/joel710">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1200&color=F59E0B&center=true&vCenter=true&width=750&lines=Applied+AI+%26+African+Language+Speech+Synthesis;IoT+Field+Telemetry+%26+Autonomous+Sensor+Nodes;Flutter+Mobile+%26+Event-Driven+Real-Time+Systems;Full-Pipeline+Engineering+from+Silicon+to+Interface" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2600&pause=1200&color=F59E0B&center=true&vCenter=true&width=750&lines=Premier+LLM+nativement+entra%C3%AEn%C3%A9+en+langue+%C3%89w%C3%A9+(1er+au+Togo);T%C3%A9l%C3%A9m%C3%A9trie+IoT+de+terrain+%26+N%C5%93uds+ESP32+autonomes;Yawo+%3A+Synth%C3%A8se+vocale+TTS+adapt%C3%A9e+aux+langues+%C3%A0+tons;Ing%C3%A9nierie+syst%C3%A8me+du+silicium+physique+aux+apps+Flutter" alt="Typing SVG" />
   </a>
 
 </div>
 
 <br/>
 
----
+```bash
+$ ./systems --inspect --scope=flagships --verbose
+```
 
-### // 01. BENTO ARCHITECTURE & PROJETS
+```
+========================================================================================
+01. [MILESTONE] PREMIER LLM NATIVEMENT ENTRAÎNÉ EN LANGUE ÉWÉ (1ER AU TOGO)
+========================================================================================
+- Rôle         : Concepteur, Chercheur & Ingénieur ML
+- Percée       : Modèle de langage génératif pré-entraîné *from scratch* directement en langue
+                 Éwé (sans transiter par l'anglais ou le français).
+- Problème     : Rareté critique de corpus structuré et échec des tokenizers occidentaux sur 
+                 les caractères diacritiques et les variations tonales d'Afrique de l'Ouest.
+- Solution     : Construction du dataset natif, tokenizer BPE/Byte-level customisé respectant
+                 la grammaire tonale et pré-entraînement ciblé pour génération contextuelle.
+- Stack        : PyTorch · Transformers · Tokenizers Custom · Python · GPU Compute
+
+========================================================================================
+02. YAWO — SYNTHÈSE VOCALE (TTS) & MODÉLISATION ACOUSTIQUE ÉWÉ
+========================================================================================
+- Rôle         : Architecte Audio & NLP
+- Percée       : Moteur TTS prenant en compte les contours intonatifs et formants de l'Éwé.
+- Impact       : Passerelle audio pour rendre l'information accessible aux populations non-lectrices.
+- Stack        : Python · PyTorch · Librosa · DSP Audio · Vocodeur Neural
+
+========================================================================================
+03. AGRIFLOW — TÉLÉMÉTRIE IOT DE TERRAIN & GUIDAGE VOCAL AGRICOLE
+========================================================================================
+- Rôle         : Concepteur Systèmes Embarqués & Hardware
+- Percée       : Nœuds de sondes solaires autonomes pour la capture d'humidité et métriques sols
+                 en environnement à faible connectivité avec restitution vocale en Éwé hors-ligne.
+- Stack        : ESP32 · C/C++ · Instrumentation Capteurs · Flash Buffer · Offline-First
+
+========================================================================================
+04. TCHALLER, SKOLLAB & ECHO — MOTEUR SPATIAL & APPLICATIONS TEMPS RÉEL
+========================================================================================
+- Tchaller     : Indexation spatiale dynamique de services urbains à proximité (< 25ms).
+- Skollab      : Plateforme mobile de mise en relation et scoring automatique marques-créateurs.
+- Echo         : Réseau social étudiant anonymisé, temps réel et optimisé pour faible débit.
+- Stack        : Flutter · Dart · WebSockets · Fast GeoJSON · Microservices REST
+```
+
+<br/>
+
+```bash
+$ sysctl --capabilities --format=matrix
+```
+
+```
+[DOMAINE]                [TECHNOLOGIES & OUTILS]
+Applied AI & LLMs   ==>  PyTorch · Transformers · Tokenizers · NLP · DSP Audio · NLTK
+Systèmes & Hardware ==>  ESP32 · Arduino · Raspberry Pi · C/C++ · Télémétrie · Linux Embarqué
+Mobile & Frontend   ==>  Flutter · Dart · TypeScript · Vue.js · WebSockets · REST APIs
+DevOps & Tooling    ==>  Docker · Linux (Debian/Arch) · Git · CI/CD · Bash Scripting
+```
+
+<br/>
 
 <div align="center">
-  <img src="./assets/bento.svg" alt="Bento Grid Showcase" width="100%" />
-</div>
 
-<br/>
-
-<details>
-<summary><strong>▸ Spécifications techniques détaillées des systèmes</strong></summary>
-<br/>
-
-#### 1. Yawo — Synthèse Vocale & Traitement de la Parole en Langue Éwé
-* **Problématique :** La majorité des moteurs vocaux mondiaux échouent sur les langues ouest-africaines à tons, où la variation de hauteur (pitch) modifie radicalement le sens d'un même phonème.
-* **Architecture :** Pipeline de transcription phonétique adaptée, modélisation acoustique du contour tonal ($F_0$), et vocodeur neural basse latence optimisé pour l'inférence locale.
-* **Impact :** Accès numérique universel, services d'information agricole et médicale pour populations non-lectrices.
-* **Technologies :** `Python`, `PyTorch`, `Librosa`, `Audio DSP`, `Phonetic Parsing`.
-
-#### 2. AgriFlow — Station Télémétrique & Décision Agronomique de Terrain
-* **Problématique :** Manque d'infrastructures de données et de connectivité continue dans les exploitations agricoles locales.
-* **Architecture :** Nœuds de capteurs autonomes (ESP32) mesurant humidité du sol, température et hygrométrie avec stockage tampon flash et synchronisation asynchrone. Restitution des alertes en synthèse vocale Éwé via le moteur Yawo.
-* **Technologies :** `ESP32`, `C/C++`, `Sensor Instrumentation`, `LoRa / GSM`, `Edge AI`.
-
-#### 3. Tchaller — Moteur Géospatial Contextuel
-* **Problématique :** Découverte instantanée et vérification de disponibilité de services urbains décentralisés.
-* **Architecture :** Indexation spatiale dynamique par maillage géographique, requêtes à rayon variable et latence inférieure à 25ms.
-* **Technologies :** `Flutter`, `Spatial Indexing`, `Fast GeoJSON`, `REST APIs`.
-
-#### 4. Skollab & Echo — Plateformes Mobiles Réactives
-* **Skollab :** Algorithme de mise en relation et scoring intelligent entre marques et créateurs de contenu avec gestion de campagnes intégrée.
-* **Echo :** Réseau social temps réel pour communautés universitaires axé sur l'anonymat, la liberté d'expression et la faible consommation de données.
-* **Technologies :** `Flutter`, `Dart`, `WebSockets`, `Asynchronous Microservices`.
-
-</details>
-
----
-
-### // 02. ARSENAL TECHNIQUE & OUTILS
-
-<div align="center">
-
-#### Intelligence Artificielle & Audio DSP
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi&theme=dark" alt="AI & Audio" />
-</a>
-
-<br/>
-
-#### Systèmes Embarqués & Télémétrie
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=c,arduino,raspberrypi,linux&theme=dark" alt="Hardware & IoT" />
-</a>
-
-<br/>
-
-#### Ingénierie Produit & Mobile
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=dart,flutter,ts,vue,rust&theme=dark" alt="Product & Mobile" />
-</a>
-
-<br/>
-
-#### DevOps & Infrastructure
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=docker,git,bash,vscode&theme=dark" alt="Ops & Tools" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,c,arduino,raspberrypi,linux,dart,flutter,ts,rust,docker,git&theme=dark" alt="Tech Stack Icons" />
 </a>
 
 </div>
 
 <br/>
 
----
+```bash
+$ curl -s https://joel.adzonya.strivenew.com/api/v1/ping | jq .
+```
 
-### // 03. COMMAND PALETTE & CONTACT
-
-<div align="center">
-  <img src="./assets/contact.svg" alt="Command Palette" width="100%" />
-</div>
+```json
+{
+  "author": "Joël Elisée Adzonya",
+  "role": "Ingénieur Systèmes, IA Appliquée & Systèmes Embarqués",
+  "flagship": "Premier LLM nativement entraîné en Éwé (Togo)",
+  "location": "Lomé, Togo [UTC+0]",
+  "endpoints": {
+    "portfolio": "https://joel.adzonya.strivenew.com",
+    "email": "joeleliseeadzonya@gmail.com",
+    "whatsapp": "+228 91 38 87 62 (https://wa.me/22891388762)",
+    "github": "https://github.com/joel710"
+  },
+  "status": "Ouvert aux projets de R&D, collaborations deep-tech & architectures à fort impact"
+}
+```
 
 <br/>
 
 <div align="center">
-
-| Destination | Raccourci | Lien Direct |
-| :--- | :---: | :--- |
-| **Portfolio Personnel** | `⌘1` | [joel.adzonya.strivenew.com](https://joel.adzonya.strivenew.com) |
-| **Email Direct** | `⌘2` | [joeleliseeadzonya@gmail.com](mailto:joeleliseeadzonya@gmail.com) |
-| **WhatsApp Business** | `⌘3` | [+228 91 38 87 62](https://wa.me/22891388762) |
-| **GitHub Profil** | `⌘4` | [github.com/joel710](https://github.com/joel710) |
-
-</div>
-
-<br/>
-
-<div align="center">
-  <sub>Conçu avec précision • Joël Elisée Adzonya • Lomé, Togo (UTC+0)</sub>
+  <sub>Lomé, Togo • Joël Elisée Adzonya • joel710</sub>
 </div>
